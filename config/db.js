@@ -16,5 +16,3 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
-
-Add MongoDB connect
