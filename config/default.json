@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://george:WYPmG2tfCzCekXg8@social-network-braxu.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "secret"
+  "jwtSecret": "secret",
+  "githubclientId": "e43bcef4600c716c29b4",
+  "githubToken": "bb75a8898ff45cee88020cc0ae18b672e2e3ab82"
 }
