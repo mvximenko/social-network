@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import DashboardActions from './DashboardActions';
+import Experience from './Experience';
+import Education from './Education';
 import Spinner from '../layout/Spinner';
 import { getCurrentProfile } from '../../redux/actions/profile';
 
@@ -23,7 +25,11 @@ const Dashboard = ({
         <i className='fas fa-user' /> Welcome {user && user.name}
       </p>
       {profile !== null ? (
-        <DashboardActions />
+        <>
+          <DashboardActions />
+          <Experience experience={profile.experience} />
+          <Education education={profile.education} />
+        </>
       ) : (
         <>
           <p>You have not yet setup a profile, please add some info</p>
