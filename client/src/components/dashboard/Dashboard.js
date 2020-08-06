@@ -4,22 +4,19 @@ import { connect } from 'react-redux';
 import DashboardActions from './DashboardActions';
 import Experience from './Experience';
 import Education from './Education';
-import Spinner from '../layout/Spinner';
 import { getCurrentProfile, deleteAccount } from '../../redux/actions/profile';
 
 const Dashboard = ({
   getCurrentProfile,
   deleteAccount,
   auth: { user },
-  profile: { profile, loading },
+  profile: { profile },
 }) => {
   useEffect(() => {
     getCurrentProfile();
   }, [getCurrentProfile]);
 
-  return loading && profile === null ? (
-    <Spinner />
-  ) : (
+  return (
     <>
       <h1 className='large text-primary'>Dashboard</h1>
       <p className='lead'>
