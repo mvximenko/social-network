@@ -17,21 +17,14 @@
     "bcryptjs": "^2.4.3",
     "config": "^3.3.1",
     "express": "^4.17.1",
-    "express-validator": "^6.4.1",
+    "express-validator": "^6.6.1",
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
-    "moment": "^2.26.0",
-    "mongoose": "^5.9.13",
-    "normalize-url": "^5.0.0",
-    "react-moment": "^0.9.7",
-    "react-redux": "^7.2.0",
-    "react-router-dom": "^5.2.0",
-    "redux": "^4.0.5",
-    "redux-devtools-extension": "^2.13.8",
-    "redux-thunk": "^2.3.0"
+    "mongoose": "^5.9.27",
+    "normalize-url": "^5.1.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.4"
   }
 }
