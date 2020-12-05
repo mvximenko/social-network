@@ -7,6 +7,7 @@
 - [Express](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
+- [Redux](https://redux.js.org/)
 
 ## Getting Started
 
@@ -18,8 +19,16 @@ git clone https://github.com/mvximenko/social-network.git
 npm install
 ```
 
+Set up environment variables in `.env`
+
 ```
-npm start
+MONGODB_URI=<YOUR_MONGODB_URI>
+JWT_SECRET=<YOUR_JWT_SECRET>
+GITHUB_TOKEN=<YOUR_GITHUB_TOKEN>
+```
+
+```
+npm run dev
 ```
 
 ## License
