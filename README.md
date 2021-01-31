@@ -15,19 +15,32 @@
 git clone https://github.com/mvximenko/social-network.git
 ```
 
+### Add a default.json file in config folder with the following
+
 ```
+{
+  "mongoURI": "<YOUR_MONGODB_URI>",
+  "jwtSecret": "<YOUR_JWT_SECRET>",
+  "githubToken": "<YOUR_GITHUB_TOKEN>"
+}
+```
+
+### Install server dependencies
+
+```bash
 npm install
 ```
 
-Set up environment variables in `.env`
+### Install client dependencies
 
-```
-MONGODB_URI=<YOUR_MONGODB_URI>
-JWT_SECRET=<YOUR_JWT_SECRET>
-GITHUB_TOKEN=<YOUR_GITHUB_TOKEN>
+```bash
+cd client
+npm install
 ```
 
-```
+### Run both Express & React from root
+
+```bash
 npm run dev
 ```
 
