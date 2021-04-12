@@ -1,5 +1,5 @@
 {
   "mongoURI": "mongodb+srv://george:WYPmG2tfCzCekXg8@social-network-braxu.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "JWT_SECRET=secret",
-  "githubToken": "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"
+  "jwtSecret": "secret",
+  "githubToken": "e43bcef4600c716c29b4"
 }
